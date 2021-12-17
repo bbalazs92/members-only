@@ -5,7 +5,7 @@ class PostsController < ApplicationController
   end
 
   def new
-    @post = current_member.posts.build
+    #@post = current_member.posts.build
   end
 
   def create
